@@ -4,6 +4,9 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<Description>A lightweight event publisher and handler system for .NET apps.</Description>
+	<PackageTags>events mediator pubsub</PackageTags>
+	<RepositoryUrl>https://github.com/Suleman275/MiniEvents</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
