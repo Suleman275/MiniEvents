@@ -1,5 +1,5 @@
 📦 MiniEvents
-A lightweight event pubilsher for .NET. Publish events with ease and automatically wire up event handlers via dependency injection.
+A lightweight event publisher for .NET. Publish events with ease and automatically wire up event handlers via dependency injection.
 
 🚀 Features:
 
