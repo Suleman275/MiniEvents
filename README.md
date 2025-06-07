@@ -57,7 +57,7 @@ public class UserService
 }
 ```
 ## 🔧 Setup
-To use AddMiniEvents, make sure to pass in the assembly or assemblies where your IEventHandler<> implementations are located. You can also pass in multiple assemblies of your handlers are located in different projects:
+To use AddMiniEvents, make sure to pass in the assembly or assemblies where your IEventHandler<> implementations are located. You can also pass in multiple assemblies if your handlers are located in different projects:
 ```C#
 services.AddMiniEvents(
     typeof(SendWelcomeEmailHandler).Assembly, 
