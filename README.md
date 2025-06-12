@@ -20,7 +20,7 @@ public class UserRegisteredEvent : IEvent
 ```C#
 public class SendWelcomeEmailHandler : IEventHandler<UserRegisteredEvent>
 {
-    public Task HandleAsync(UserRegisteredEvent e, CancellationToken ct)
+    public Task HandleAsync(UserRegisteredEvent e)
     {
         Console.WriteLine($"Sending welcome email to {e.Email}");
         return Task.CompletedTask;
